@@ -1,0 +1,18 @@
+version: 2
+updates:
+  # common configuration
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 3
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    cooldown:
+      default-days: 3
+
+  # add test harness configuration here
+  # The library has no package registry for Dependabot to watch. The Dockerfile takes its latest release.

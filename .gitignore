@@ -1,0 +1,7 @@
+# add ignored files specific to test harness
+# Free Pascal build outputs
+*.o
+*.ppu
+*.a
+/build/
+/bowtie_corvus_json_schema
