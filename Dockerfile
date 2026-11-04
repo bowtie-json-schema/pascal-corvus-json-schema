@@ -1,6 +1,6 @@
 # The library's source, as released (src-pas in Corvus.JsonSchema). Its version is this tag, which Dependabot keeps up
 # to date.
-FROM ghcr.io/corvus-dotnet/corvus-json-schema-pascal:0.1.1 AS corvus
+FROM ghcr.io/corvus-dotnet/corvus-json-schema-pascal:0.1.2 AS corvus
 
 FROM debian:trixie-slim@sha256:f6b08b09a05725f9431502d3b5714f5c4576e82c1a84fa1debe0c24a7e0c3ec4 AS build
 # Free Pascal 3.2.2 from Debian, which packages the compiler for amd64 and for arm64. The compiler and its run-time
