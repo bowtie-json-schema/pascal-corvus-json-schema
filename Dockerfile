@@ -2,7 +2,7 @@
 # to date.
 FROM ghcr.io/corvus-dotnet/corvus-json-schema-pascal:0.1.2 AS corvus
 
-FROM debian:trixie-slim@sha256:f6b08b09a05725f9431502d3b5714f5c4576e82c1a84fa1debe0c24a7e0c3ec4 AS build
+FROM debian:trixie-slim@sha256:a72b4433de1cf7d6bae0c4cee74d0547f58601a643b3375f070c51600d63b6b2 AS build
 # Free Pascal 3.2.2 from Debian, which packages the compiler for amd64 and for arm64. The compiler and its run-time
 # library and component library units are all the harness and the library need.
 RUN apt-get update \
